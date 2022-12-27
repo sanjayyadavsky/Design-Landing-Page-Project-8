@@ -78,8 +78,16 @@ nav > button {
     margin-top: 50px;
     border: none;
     color: rgb(255, 255, 255);
-    padding: 15px 30px;
-    font-size: 45px;
+    padding: 9px 30px;
+    font-size: 44px;
     border-radius: 44px;
     background: linear-gradient(to left, rgb(255, 138, 220), rgb(150, 92, 242));
+}
+
+/* animation for navbar
+ */
+
+.nav-item:hover{
+    scale: 1.2;
+
 }
