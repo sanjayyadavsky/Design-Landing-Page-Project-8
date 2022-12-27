@@ -30,6 +30,7 @@ nav > button {
 }
 .nav-item{
     float: left;
+    color: #3e4794;
     position: relative;
     left: 30%;
     padding: 10px 20px;
