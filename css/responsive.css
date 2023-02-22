@@ -1,0 +1,50 @@
+@media screen and (max-width: 1000px) {
+    .nav-items{
+        display: none;
+    }
+    .signin-btn {
+        display: none;
+    }
+    .bars{
+        float: right;
+        display: block;
+    }
+    nav{
+        width: 100%;
+    }
+    nav > img {
+        width: 20%;
+    }
+    .left-section{
+        order: 2;
+        width: fit-content;
+    }
+    .intro-section{
+        flex-direction: column;
+    }
+    .left-section>h4{
+        
+        width: 100%;
+    }
+    .vector-img{
+        display: none;
+    }
+    .intro-section > div:last-child {
+        width: 80%;
+        margin: auto;
+    }
+    .intro-section > div:first-child {
+      width: 100%; 
+      top: 65px;
+    }
+    .left-section>h1 {
+        font-size: 30px; 
+        
+    }
+    .left-section>h4 {
+        font-size: 18px;
+    }
+    .left-section >button {
+        font-size: 20px; 
+    }
+}

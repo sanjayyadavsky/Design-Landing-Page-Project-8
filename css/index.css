@@ -47,9 +47,7 @@ nav > button {
 }
 .intro-section{
     position: absolute;
-}
-.intro-section > div{
-    float: left;
+    display: flex;
 }
 .intro-section > div:first-child{
     width: 35%;
@@ -71,7 +69,7 @@ nav > button {
 .imgs-div > img:last-child{
     width: 86%;
     position: relative;
-    left: -100px;
+    left: -8%;
     top: 37px;
 }
 .left-section >button{
@@ -83,7 +81,9 @@ nav > button {
     border-radius: 44px;
     background: linear-gradient(to left, rgb(255, 138, 220), rgb(150, 92, 242));
 }
-
+.bars{
+   display: none;
+}
 /* animation for navbar
  */
 
